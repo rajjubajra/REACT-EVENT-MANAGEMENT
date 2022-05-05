@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-event-management/events-01/static/css/main.caa6844b.css",
+    "main.js": "/react-event-management/events-01/static/js/main.22cd2809.js",
+    "index.html": "/react-event-management/events-01/index.html",
+    "main.caa6844b.css.map": "/react-event-management/events-01/static/css/main.caa6844b.css.map",
+    "main.22cd2809.js.map": "/react-event-management/events-01/static/js/main.22cd2809.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.caa6844b.css",
+    "static/js/main.22cd2809.js"
+  ]
+}
