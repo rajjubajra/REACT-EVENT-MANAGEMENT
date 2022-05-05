@@ -1,0 +1,812 @@
+
+{
+  "jsonapi": {
+    "version": "1.0",
+    "meta": {
+      "links": {
+        "self": {
+          "href": "http://jsonapi.org/format/1.0/"
+        }
+      }
+    }
+  },
+  "data": [
+    {
+      "type": "node--event_listing",
+      "id": "ff10f7c4-5586-4d0b-b08d-e7c7d651672c",
+      "links": {
+        "describedby": {
+          "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/event_listing/resource/schema"
+        },
+        "self": {
+          "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/event_listing/ff10f7c4-5586-4d0b-b08d-e7c7d651672c?resourceVersion=id%3A325"
+        }
+      },
+      "attributes": {
+        "drupal_internal__nid": 90,
+        "drupal_internal__vid": 325,
+        "langcode": "en",
+        "revision_timestamp": "2022-04-29T10:14:33+00:00",
+        "revision_log": null,
+        "status": true,
+        "title": "Event One",
+        "created": "2022-04-29T09:03:56+00:00",
+        "changed": "2022-04-29T10:14:33+00:00",
+        "promote": true,
+        "sticky": false,
+        "default_langcode": true,
+        "revision_translation_affected": true,
+        "path": {
+          "alias": null,
+          "pid": null,
+          "langcode": "en"
+        },
+        "field_event_data_and_time": {
+          "value": "2022-05-08T10:09:00+00:00",
+          "end_value": "2022-05-08T12:09:00+00:00",
+          "duration": 120,
+          "rrule": null,
+          "rrule_index": null,
+          "timezone": ""
+        },
+        "field_event_details": {
+          "value": "<h2>Test Event Details</h2>\r\n\r\n<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem.</p>\r\n\r\n<p>Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit, tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit, quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam recusandae alias error harum maxime adipisci amet laborum. Perspiciatis minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit quibusdam sed amet tempora.</p>\r\n\r\n<p>Sit laborum ab, eius fugit doloribus tenetur fugiat, temporibus enim commodi iusto libero magni deleniti quod quam consequuntur! Commodi minima excepturi repudiandae velit hic maxime doloremque. Quaerat provident commodi consectetur veniam similique ad earum omnis ipsum saepe, voluptas, hic voluptates pariatur est explicabo fugiat, dolorum eligendi quam cupiditate excepturi mollitia maiores labore suscipit quas? Nulla, placeat. Voluptatem quaerat non architecto ab laudantium modi minima sunt esse temporibus sint culpa, recusandae aliquam numquam totam ratione voluptas quod exercitationem fuga. Possimus quis earum veniam quasi aliquam eligendi, placeat qui corporis!</p>\r\n",
+          "format": "basic_html",
+          "processed": "<h2>Test Event Details</h2>\n\n<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem.</p>\n\n<p>Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit, tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit, quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam recusandae alias error harum maxime adipisci amet laborum. Perspiciatis minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit quibusdam sed amet tempora.</p>\n\n<p>Sit laborum ab, eius fugit doloribus tenetur fugiat, temporibus enim commodi iusto libero magni deleniti quod quam consequuntur! Commodi minima excepturi repudiandae velit hic maxime doloremque. Quaerat provident commodi consectetur veniam similique ad earum omnis ipsum saepe, voluptas, hic voluptates pariatur est explicabo fugiat, dolorum eligendi quam cupiditate excepturi mollitia maiores labore suscipit quas? Nulla, placeat. Voluptatem quaerat non architecto ab laudantium modi minima sunt esse temporibus sint culpa, recusandae aliquam numquam totam ratione voluptas quod exercitationem fuga. Possimus quis earum veniam quasi aliquam eligendi, placeat qui corporis!</p>"
+        },
+        "field_event_location": {
+          "value": "<p>Location</p>\r\n\r\n<p>Test Location</p>\r\n\r\n<p>Address</p>\r\n",
+          "format": "basic_html",
+          "processed": "<p>Location</p>\n\n<p>Test Location</p>\n\n<p>Address</p>"
+        },
+        "field_event_organizer": {
+          "value": "<p>Name-who Organizing Event</p>\r\n",
+          "format": "basic_html",
+          "processed": "<p>Name-who Organizing Event</p>"
+        }
+      },
+      "relationships": {
+        "node_type": {
+          "data": {
+            "type": "node_type--node_type",
+            "id": "0998d65d-ed97-4f29-9fbf-345b6fce4801",
+            "meta": {
+              "drupal_internal__target_id": "event_listing"
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/event_listing/ff10f7c4-5586-4d0b-b08d-e7c7d651672c/node_type?resourceVersion=id%3A325"
+            },
+            "self": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/event_listing/ff10f7c4-5586-4d0b-b08d-e7c7d651672c/relationships/node_type?resourceVersion=id%3A325"
+            }
+          }
+        },
+        "revision_uid": {
+          "data": {
+            "type": "user--user",
+            "id": "98fd8b15-fbc5-4ceb-895c-49dd9c31f88e",
+            "meta": {
+              "drupal_internal__target_id": 1
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/event_listing/ff10f7c4-5586-4d0b-b08d-e7c7d651672c/revision_uid?resourceVersion=id%3A325"
+            },
+            "self": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/event_listing/ff10f7c4-5586-4d0b-b08d-e7c7d651672c/relationships/revision_uid?resourceVersion=id%3A325"
+            }
+          }
+        },
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "98fd8b15-fbc5-4ceb-895c-49dd9c31f88e",
+            "meta": {
+              "drupal_internal__target_id": 1
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/event_listing/ff10f7c4-5586-4d0b-b08d-e7c7d651672c/uid?resourceVersion=id%3A325"
+            },
+            "self": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/event_listing/ff10f7c4-5586-4d0b-b08d-e7c7d651672c/relationships/uid?resourceVersion=id%3A325"
+            }
+          }
+        },
+        "field_hourly_schedule": {
+          "data": [
+            {
+              "type": "paragraph--hourly_schedule",
+              "id": "d1304979-dad1-4141-8895-467717f11a26",
+              "meta": {
+                "target_revision_id": 152,
+                "drupal_internal__target_id": 62
+              }
+            },
+            {
+              "type": "paragraph--hourly_schedule",
+              "id": "44eb0c6a-543d-4050-9daa-fd11734cb865",
+              "meta": {
+                "target_revision_id": 153,
+                "drupal_internal__target_id": 63
+              }
+            },
+            {
+              "type": "paragraph--hourly_schedule",
+              "id": "39e995cf-f32b-4c93-8d6e-640fc87b8b8e",
+              "meta": {
+                "target_revision_id": 154,
+                "drupal_internal__target_id": 64
+              }
+            }
+          ],
+          "links": {
+            "related": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/event_listing/ff10f7c4-5586-4d0b-b08d-e7c7d651672c/field_hourly_schedule?resourceVersion=id%3A325"
+            },
+            "self": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/event_listing/ff10f7c4-5586-4d0b-b08d-e7c7d651672c/relationships/field_hourly_schedule?resourceVersion=id%3A325"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node--event_listing",
+      "id": "a3957a67-a244-4211-8865-86d513591d29",
+      "links": {
+        "describedby": {
+          "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/event_listing/resource/schema"
+        },
+        "self": {
+          "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/event_listing/a3957a67-a244-4211-8865-86d513591d29?resourceVersion=id%3A326"
+        }
+      },
+      "attributes": {
+        "drupal_internal__nid": 91,
+        "drupal_internal__vid": 326,
+        "langcode": "en",
+        "revision_timestamp": "2022-04-29T10:19:59+00:00",
+        "revision_log": null,
+        "status": true,
+        "title": "Event Two",
+        "created": "2022-04-29T10:16:05+00:00",
+        "changed": "2022-04-29T10:19:59+00:00",
+        "promote": true,
+        "sticky": false,
+        "default_langcode": true,
+        "revision_translation_affected": true,
+        "path": {
+          "alias": null,
+          "pid": null,
+          "langcode": "en"
+        },
+        "field_event_data_and_time": {
+          "value": "2022-05-08T09:30:00+00:00",
+          "end_value": "2022-05-08T16:30:00+00:00",
+          "duration": 420,
+          "rrule": null,
+          "rrule_index": null,
+          "timezone": ""
+        },
+        "field_event_details": {
+          "value": "<h2>Event Two&nbsp;</h2>\r\n\r\n<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit, tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit, quia. Quo neque error repudiandae</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+          "format": "basic_html",
+          "processed": "<h2>Event Two </h2>\n\n<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit, tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit, quia. Quo neque error repudiandae</p>\n\n<p> </p>"
+        },
+        "field_event_location": {
+          "value": "<p>Event Location</p>\r\n\r\n<p>Address&nbsp;</p>\r\n\r\n<p>London</p>\r\n",
+          "format": "basic_html",
+          "processed": "<p>Event Location</p>\n\n<p>Address </p>\n\n<p>London</p>"
+        },
+        "field_event_organizer": {
+          "value": "<p>Name-who Organizing&nbsp;</p>\r\n\r\n<p>Address, Place, Tel: 000 000 000</p>\r\n",
+          "format": "basic_html",
+          "processed": "<p>Name-who Organizing </p>\n\n<p>Address, Place, Tel: 000 000 000</p>"
+        }
+      },
+      "relationships": {
+        "node_type": {
+          "data": {
+            "type": "node_type--node_type",
+            "id": "0998d65d-ed97-4f29-9fbf-345b6fce4801",
+            "meta": {
+              "drupal_internal__target_id": "event_listing"
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/event_listing/a3957a67-a244-4211-8865-86d513591d29/node_type?resourceVersion=id%3A326"
+            },
+            "self": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/event_listing/a3957a67-a244-4211-8865-86d513591d29/relationships/node_type?resourceVersion=id%3A326"
+            }
+          }
+        },
+        "revision_uid": {
+          "data": {
+            "type": "user--user",
+            "id": "98fd8b15-fbc5-4ceb-895c-49dd9c31f88e",
+            "meta": {
+              "drupal_internal__target_id": 1
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/event_listing/a3957a67-a244-4211-8865-86d513591d29/revision_uid?resourceVersion=id%3A326"
+            },
+            "self": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/event_listing/a3957a67-a244-4211-8865-86d513591d29/relationships/revision_uid?resourceVersion=id%3A326"
+            }
+          }
+        },
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "98fd8b15-fbc5-4ceb-895c-49dd9c31f88e",
+            "meta": {
+              "drupal_internal__target_id": 1
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/event_listing/a3957a67-a244-4211-8865-86d513591d29/uid?resourceVersion=id%3A326"
+            },
+            "self": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/event_listing/a3957a67-a244-4211-8865-86d513591d29/relationships/uid?resourceVersion=id%3A326"
+            }
+          }
+        },
+        "field_hourly_schedule": {
+          "data": [
+            {
+              "type": "paragraph--hourly_schedule",
+              "id": "cdc1fd1b-bdb1-4d27-a5b4-684993196e19",
+              "meta": {
+                "target_revision_id": 155,
+                "drupal_internal__target_id": 65
+              }
+            },
+            {
+              "type": "paragraph--hourly_schedule",
+              "id": "e1a10056-6ff2-4dcf-ace0-4eb12e9cbf31",
+              "meta": {
+                "target_revision_id": 156,
+                "drupal_internal__target_id": 66
+              }
+            },
+            {
+              "type": "paragraph--hourly_schedule",
+              "id": "bc182e8d-f8ea-4341-94fc-c76297b666a5",
+              "meta": {
+                "target_revision_id": 157,
+                "drupal_internal__target_id": 67
+              }
+            }
+          ],
+          "links": {
+            "related": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/event_listing/a3957a67-a244-4211-8865-86d513591d29/field_hourly_schedule?resourceVersion=id%3A326"
+            },
+            "self": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/event_listing/a3957a67-a244-4211-8865-86d513591d29/relationships/field_hourly_schedule?resourceVersion=id%3A326"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node--event_listing",
+      "id": "fa93974e-33ab-4dd7-9974-45bb1a4bd021",
+      "links": {
+        "describedby": {
+          "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/event_listing/resource/schema"
+        },
+        "self": {
+          "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/event_listing/fa93974e-33ab-4dd7-9974-45bb1a4bd021?resourceVersion=id%3A334"
+        }
+      },
+      "attributes": {
+        "drupal_internal__nid": 93,
+        "drupal_internal__vid": 334,
+        "langcode": "en",
+        "revision_timestamp": "2022-05-05T05:56:30+00:00",
+        "revision_log": null,
+        "status": true,
+        "title": "New Learning Sesson",
+        "created": "2022-05-05T05:50:27+00:00",
+        "changed": "2022-05-05T05:56:30+00:00",
+        "promote": true,
+        "sticky": false,
+        "default_langcode": true,
+        "revision_translation_affected": true,
+        "path": {
+          "alias": null,
+          "pid": null,
+          "langcode": "en"
+        },
+        "field_event_data_and_time": {
+          "value": "2022-06-05T10:00:00+00:00",
+          "end_value": "2022-06-05T11:00:00+00:00",
+          "duration": 60,
+          "rrule": null,
+          "rrule_index": null,
+          "timezone": ""
+        },
+        "field_event_details": {
+          "value": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit, tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit, quia.</p>\r\n\r\n<p>Quo neque error repudiandae fuga? Ipsa laudantium molestias eos sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam recusandae alias error harum maxime adipisci amet laborum. Perspiciatis minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit quibusdam sed amet tempora. Sit laborum ab, eius fugit doloribus tenet.</p>\r\n",
+          "format": "basic_html",
+          "processed": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit, tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit, quia.</p>\n\n<p>Quo neque error repudiandae fuga? Ipsa laudantium molestias eos sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam recusandae alias error harum maxime adipisci amet laborum. Perspiciatis minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit quibusdam sed amet tempora. Sit laborum ab, eius fugit doloribus tenet.</p>"
+        },
+        "field_event_location": {
+          "value": "<p>ABC Hall,</p>\r\n\r\n<p>Cool Road,</p>\r\n\r\n<p>Cityname, UK</p>\r\n",
+          "format": "basic_html",
+          "processed": "<p>ABC Hall,</p>\n\n<p>Cool Road,</p>\n\n<p>Cityname, UK</p>"
+        },
+        "field_event_organizer": {
+          "value": "<p>ABC Goupr</p>\r\n",
+          "format": "basic_html",
+          "processed": "<p>ABC Goupr</p>"
+        }
+      },
+      "relationships": {
+        "node_type": {
+          "data": {
+            "type": "node_type--node_type",
+            "id": "0998d65d-ed97-4f29-9fbf-345b6fce4801",
+            "meta": {
+              "drupal_internal__target_id": "event_listing"
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/event_listing/fa93974e-33ab-4dd7-9974-45bb1a4bd021/node_type?resourceVersion=id%3A334"
+            },
+            "self": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/event_listing/fa93974e-33ab-4dd7-9974-45bb1a4bd021/relationships/node_type?resourceVersion=id%3A334"
+            }
+          }
+        },
+        "revision_uid": {
+          "data": {
+            "type": "user--user",
+            "id": "98fd8b15-fbc5-4ceb-895c-49dd9c31f88e",
+            "meta": {
+              "drupal_internal__target_id": 1
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/event_listing/fa93974e-33ab-4dd7-9974-45bb1a4bd021/revision_uid?resourceVersion=id%3A334"
+            },
+            "self": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/event_listing/fa93974e-33ab-4dd7-9974-45bb1a4bd021/relationships/revision_uid?resourceVersion=id%3A334"
+            }
+          }
+        },
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "98fd8b15-fbc5-4ceb-895c-49dd9c31f88e",
+            "meta": {
+              "drupal_internal__target_id": 1
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/event_listing/fa93974e-33ab-4dd7-9974-45bb1a4bd021/uid?resourceVersion=id%3A334"
+            },
+            "self": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/event_listing/fa93974e-33ab-4dd7-9974-45bb1a4bd021/relationships/uid?resourceVersion=id%3A334"
+            }
+          }
+        },
+        "field_hourly_schedule": {
+          "data": [
+            {
+              "type": "paragraph--hourly_schedule",
+              "id": "c3d16d73-e3bb-4929-960d-6f41924e644f",
+              "meta": {
+                "target_revision_id": 158,
+                "drupal_internal__target_id": 68
+              }
+            }
+          ],
+          "links": {
+            "related": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/event_listing/fa93974e-33ab-4dd7-9974-45bb1a4bd021/field_hourly_schedule?resourceVersion=id%3A334"
+            },
+            "self": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/event_listing/fa93974e-33ab-4dd7-9974-45bb1a4bd021/relationships/field_hourly_schedule?resourceVersion=id%3A334"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "included": [
+    {
+      "type": "paragraph--hourly_schedule",
+      "id": "d1304979-dad1-4141-8895-467717f11a26",
+      "links": {
+        "describedby": {
+          "href": "https://dev.yellow-website.com/yw-d9/jsonapi/paragraph/hourly_schedule/resource/schema"
+        },
+        "self": {
+          "href": "https://dev.yellow-website.com/yw-d9/jsonapi/paragraph/hourly_schedule/d1304979-dad1-4141-8895-467717f11a26"
+        }
+      },
+      "attributes": {
+        "drupal_internal__id": 62,
+        "drupal_internal__revision_id": 152,
+        "langcode": "en",
+        "status": true,
+        "created": "2022-04-29T09:25:34+00:00",
+        "parent_id": "90",
+        "parent_type": "node",
+        "parent_field_name": "field_hourly_schedule",
+        "behavior_settings": [
+          
+        ],
+        "default_langcode": true,
+        "revision_translation_affected": true,
+        "field_event_session_brief": {
+          "value": "Session On",
+          "format": "basic_html",
+          "processed": "Session On"
+        },
+        "field_event_session_end": "2022-04-29T09:00:00+00:00",
+        "field_event_session_start": "2022-04-29T10:00:00+00:00"
+      },
+      "relationships": {
+        "paragraph_type": {
+          "data": {
+            "type": "paragraphs_type--paragraphs_type",
+            "id": "45b762bd-62a0-4f86-8d96-b582ee62e1a3",
+            "meta": {
+              "drupal_internal__target_id": "hourly_schedule"
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/paragraph/hourly_schedule/d1304979-dad1-4141-8895-467717f11a26/paragraph_type"
+            },
+            "self": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/paragraph/hourly_schedule/d1304979-dad1-4141-8895-467717f11a26/relationships/paragraph_type"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "paragraph--hourly_schedule",
+      "id": "44eb0c6a-543d-4050-9daa-fd11734cb865",
+      "links": {
+        "describedby": {
+          "href": "https://dev.yellow-website.com/yw-d9/jsonapi/paragraph/hourly_schedule/resource/schema"
+        },
+        "self": {
+          "href": "https://dev.yellow-website.com/yw-d9/jsonapi/paragraph/hourly_schedule/44eb0c6a-543d-4050-9daa-fd11734cb865"
+        }
+      },
+      "attributes": {
+        "drupal_internal__id": 63,
+        "drupal_internal__revision_id": 153,
+        "langcode": "en",
+        "status": true,
+        "created": "2022-04-29T10:11:26+00:00",
+        "parent_id": "90",
+        "parent_type": "node",
+        "parent_field_name": "field_hourly_schedule",
+        "behavior_settings": [
+          
+        ],
+        "default_langcode": true,
+        "revision_translation_affected": true,
+        "field_event_session_brief": {
+          "value": "Sesstion Two",
+          "format": "basic_html",
+          "processed": "Sesstion Two"
+        },
+        "field_event_session_end": "2022-04-29T10:00:01+00:00",
+        "field_event_session_start": "2022-04-29T12:00:00+00:00"
+      },
+      "relationships": {
+        "paragraph_type": {
+          "data": {
+            "type": "paragraphs_type--paragraphs_type",
+            "id": "45b762bd-62a0-4f86-8d96-b582ee62e1a3",
+            "meta": {
+              "drupal_internal__target_id": "hourly_schedule"
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/paragraph/hourly_schedule/44eb0c6a-543d-4050-9daa-fd11734cb865/paragraph_type"
+            },
+            "self": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/paragraph/hourly_schedule/44eb0c6a-543d-4050-9daa-fd11734cb865/relationships/paragraph_type"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "paragraph--hourly_schedule",
+      "id": "39e995cf-f32b-4c93-8d6e-640fc87b8b8e",
+      "links": {
+        "describedby": {
+          "href": "https://dev.yellow-website.com/yw-d9/jsonapi/paragraph/hourly_schedule/resource/schema"
+        },
+        "self": {
+          "href": "https://dev.yellow-website.com/yw-d9/jsonapi/paragraph/hourly_schedule/39e995cf-f32b-4c93-8d6e-640fc87b8b8e"
+        }
+      },
+      "attributes": {
+        "drupal_internal__id": 64,
+        "drupal_internal__revision_id": 154,
+        "langcode": "en",
+        "status": true,
+        "created": "2022-04-29T10:12:03+00:00",
+        "parent_id": "90",
+        "parent_type": "node",
+        "parent_field_name": "field_hourly_schedule",
+        "behavior_settings": [
+          
+        ],
+        "default_langcode": true,
+        "revision_translation_affected": true,
+        "field_event_session_brief": {
+          "value": "Session Three",
+          "format": "basic_html",
+          "processed": "Session Three"
+        },
+        "field_event_session_end": "2022-04-29T13:00:00+00:00",
+        "field_event_session_start": "2022-04-29T13:00:00+00:00"
+      },
+      "relationships": {
+        "paragraph_type": {
+          "data": {
+            "type": "paragraphs_type--paragraphs_type",
+            "id": "45b762bd-62a0-4f86-8d96-b582ee62e1a3",
+            "meta": {
+              "drupal_internal__target_id": "hourly_schedule"
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/paragraph/hourly_schedule/39e995cf-f32b-4c93-8d6e-640fc87b8b8e/paragraph_type"
+            },
+            "self": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/paragraph/hourly_schedule/39e995cf-f32b-4c93-8d6e-640fc87b8b8e/relationships/paragraph_type"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "paragraph--hourly_schedule",
+      "id": "cdc1fd1b-bdb1-4d27-a5b4-684993196e19",
+      "links": {
+        "describedby": {
+          "href": "https://dev.yellow-website.com/yw-d9/jsonapi/paragraph/hourly_schedule/resource/schema"
+        },
+        "self": {
+          "href": "https://dev.yellow-website.com/yw-d9/jsonapi/paragraph/hourly_schedule/cdc1fd1b-bdb1-4d27-a5b4-684993196e19"
+        }
+      },
+      "attributes": {
+        "drupal_internal__id": 65,
+        "drupal_internal__revision_id": 155,
+        "langcode": "en",
+        "status": true,
+        "created": "2022-04-29T10:17:57+00:00",
+        "parent_id": "91",
+        "parent_type": "node",
+        "parent_field_name": "field_hourly_schedule",
+        "behavior_settings": [
+          
+        ],
+        "default_langcode": true,
+        "revision_translation_affected": true,
+        "field_event_session_brief": {
+          "value": "Session One",
+          "format": "basic_html",
+          "processed": "Session One"
+        },
+        "field_event_session_end": "2022-04-29T09:30:00+00:00",
+        "field_event_session_start": "2022-04-29T10:00:00+00:00"
+      },
+      "relationships": {
+        "paragraph_type": {
+          "data": {
+            "type": "paragraphs_type--paragraphs_type",
+            "id": "45b762bd-62a0-4f86-8d96-b582ee62e1a3",
+            "meta": {
+              "drupal_internal__target_id": "hourly_schedule"
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/paragraph/hourly_schedule/cdc1fd1b-bdb1-4d27-a5b4-684993196e19/paragraph_type"
+            },
+            "self": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/paragraph/hourly_schedule/cdc1fd1b-bdb1-4d27-a5b4-684993196e19/relationships/paragraph_type"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "paragraph--hourly_schedule",
+      "id": "e1a10056-6ff2-4dcf-ace0-4eb12e9cbf31",
+      "links": {
+        "describedby": {
+          "href": "https://dev.yellow-website.com/yw-d9/jsonapi/paragraph/hourly_schedule/resource/schema"
+        },
+        "self": {
+          "href": "https://dev.yellow-website.com/yw-d9/jsonapi/paragraph/hourly_schedule/e1a10056-6ff2-4dcf-ace0-4eb12e9cbf31"
+        }
+      },
+      "attributes": {
+        "drupal_internal__id": 66,
+        "drupal_internal__revision_id": 156,
+        "langcode": "en",
+        "status": true,
+        "created": "2022-04-29T10:17:57+00:00",
+        "parent_id": "91",
+        "parent_type": "node",
+        "parent_field_name": "field_hourly_schedule",
+        "behavior_settings": [
+          
+        ],
+        "default_langcode": true,
+        "revision_translation_affected": true,
+        "field_event_session_brief": {
+          "value": "Session Two Second Event",
+          "format": "basic_html",
+          "processed": "Session Two Second Event"
+        },
+        "field_event_session_end": "2022-04-29T10:00:00+00:00",
+        "field_event_session_start": "2022-04-29T12:00:00+00:00"
+      },
+      "relationships": {
+        "paragraph_type": {
+          "data": {
+            "type": "paragraphs_type--paragraphs_type",
+            "id": "45b762bd-62a0-4f86-8d96-b582ee62e1a3",
+            "meta": {
+              "drupal_internal__target_id": "hourly_schedule"
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/paragraph/hourly_schedule/e1a10056-6ff2-4dcf-ace0-4eb12e9cbf31/paragraph_type"
+            },
+            "self": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/paragraph/hourly_schedule/e1a10056-6ff2-4dcf-ace0-4eb12e9cbf31/relationships/paragraph_type"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "paragraph--hourly_schedule",
+      "id": "bc182e8d-f8ea-4341-94fc-c76297b666a5",
+      "links": {
+        "describedby": {
+          "href": "https://dev.yellow-website.com/yw-d9/jsonapi/paragraph/hourly_schedule/resource/schema"
+        },
+        "self": {
+          "href": "https://dev.yellow-website.com/yw-d9/jsonapi/paragraph/hourly_schedule/bc182e8d-f8ea-4341-94fc-c76297b666a5"
+        }
+      },
+      "attributes": {
+        "drupal_internal__id": 67,
+        "drupal_internal__revision_id": 157,
+        "langcode": "en",
+        "status": true,
+        "created": "2022-04-29T10:18:38+00:00",
+        "parent_id": "91",
+        "parent_type": "node",
+        "parent_field_name": "field_hourly_schedule",
+        "behavior_settings": [
+          
+        ],
+        "default_langcode": true,
+        "revision_translation_affected": true,
+        "field_event_session_brief": {
+          "value": "Session closing",
+          "format": "basic_html",
+          "processed": "Session closing"
+        },
+        "field_event_session_end": "2022-04-29T13:00:00+00:00",
+        "field_event_session_start": "2022-04-29T14:00:00+00:00"
+      },
+      "relationships": {
+        "paragraph_type": {
+          "data": {
+            "type": "paragraphs_type--paragraphs_type",
+            "id": "45b762bd-62a0-4f86-8d96-b582ee62e1a3",
+            "meta": {
+              "drupal_internal__target_id": "hourly_schedule"
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/paragraph/hourly_schedule/bc182e8d-f8ea-4341-94fc-c76297b666a5/paragraph_type"
+            },
+            "self": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/paragraph/hourly_schedule/bc182e8d-f8ea-4341-94fc-c76297b666a5/relationships/paragraph_type"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "paragraph--hourly_schedule",
+      "id": "c3d16d73-e3bb-4929-960d-6f41924e644f",
+      "links": {
+        "describedby": {
+          "href": "https://dev.yellow-website.com/yw-d9/jsonapi/paragraph/hourly_schedule/resource/schema"
+        },
+        "self": {
+          "href": "https://dev.yellow-website.com/yw-d9/jsonapi/paragraph/hourly_schedule/c3d16d73-e3bb-4929-960d-6f41924e644f"
+        }
+      },
+      "attributes": {
+        "drupal_internal__id": 68,
+        "drupal_internal__revision_id": 158,
+        "langcode": "en",
+        "status": true,
+        "created": "2022-05-05T05:56:30+00:00",
+        "parent_id": "93",
+        "parent_type": "node",
+        "parent_field_name": "field_hourly_schedule",
+        "behavior_settings": [
+          
+        ],
+        "default_langcode": true,
+        "revision_translation_affected": true,
+        "field_event_session_brief": {
+          "value": "Lesson One",
+          "format": "basic_html",
+          "processed": "Lesson One"
+        },
+        "field_event_session_end": "2022-06-05T10:00:00+00:00",
+        "field_event_session_start": "2022-06-05T10:15:00+00:00"
+      },
+      "relationships": {
+        "paragraph_type": {
+          "data": {
+            "type": "paragraphs_type--paragraphs_type",
+            "id": "45b762bd-62a0-4f86-8d96-b582ee62e1a3",
+            "meta": {
+              "drupal_internal__target_id": "hourly_schedule"
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/paragraph/hourly_schedule/c3d16d73-e3bb-4929-960d-6f41924e644f/paragraph_type"
+            },
+            "self": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/paragraph/hourly_schedule/c3d16d73-e3bb-4929-960d-6f41924e644f/relationships/paragraph_type"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "meta": {
+    "count": "3"
+  },
+  "links": {
+    "self": {
+      "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/event_listing?include=field_hourly_schedule"
+    }
+  }
+}
