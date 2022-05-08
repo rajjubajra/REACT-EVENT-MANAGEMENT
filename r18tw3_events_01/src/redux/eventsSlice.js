@@ -15,7 +15,7 @@ export const actionEvents = createAsyncThunk("events_data/getEventsData", async 
       {
         return axios({
           method: 'GET',
-          url: `${baseurl.URL}/jsonapi/node/event_listing?include=field_hourly_schedule`,
+          url: `${baseurl.URL}/jsonapi/node/event_listing?include=field_event_location,field_hourly_schedule`,
           headers: {
             'Content-Type': 'application/vnd.api+json',
             'Accept': 'application/vnd.api+json',
@@ -43,7 +43,7 @@ const eventsSlice = createSlice({
     [actionEvents.fulfilled]: (state,action) => {
       //console.log(action.payload);
       state.loading = false;
-      state.eventsdata = action.payload.data;
+      state.eventsdata = action.payload;
       state.fetched = true;
     },
     [actionEvents.rejected]: (state,action) => {

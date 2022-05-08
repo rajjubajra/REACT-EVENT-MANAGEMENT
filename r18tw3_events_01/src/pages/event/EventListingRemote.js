@@ -1,5 +1,5 @@
 import React,{useEffect} from 'react';
-import {useDispatch} from 'react-redux';
+import {useDispatch,useSelector} from 'react-redux';
 import {actionEvents} from '../../redux/eventsSlice';
 import EventListingContainer from './EventListingContainer';
 
@@ -10,12 +10,14 @@ function EventListingRemote() {
 
   useEffect(()=>{
     dispatch(actionEvents());
-
   },[dispatch])
+
+  const {eventsdata} = useSelector(state => state.events_data)
+  console.log(eventsdata);
 
   return (
     <div>
-      <EventListingContainer />
+      <EventListingContainer data={eventsdata} />
     </div>
   )
 }
