@@ -3,9 +3,9 @@ import React from 'react'
 function RadioTrue({setRadio}) {
   return (
     <input type="radio" 
-              className="input-field"
-              name="booking-password" 
-              onChange={(e)=> setRadio(true)} />
+            className="input-field"
+            name="booking-password" 
+            onChange={(e)=>setRadio(true)} />
   )
 }
 

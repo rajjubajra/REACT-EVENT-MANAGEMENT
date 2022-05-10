@@ -1,5 +1,5 @@
 import React from 'react';
-import EventBookingForm from './EventBooking/EventBookingForm';
+import EventBookingForm from './eventBooking/EventBookingForm';
 
 function EventBooking() {
   return (
