@@ -4,6 +4,8 @@ import EventListingLocal from './event/EventListingLocal';
 
 
 function Events() {
+
+
   return (
       window.location.origin === 'http://localhost:3000'
       ? <EventListingLocal />

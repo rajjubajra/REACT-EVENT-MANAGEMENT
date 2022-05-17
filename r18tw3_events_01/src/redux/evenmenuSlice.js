@@ -27,7 +27,7 @@ const eventMenuSlice = createSlice({
       state.loading = true;
     },
     [actionEventMenu.fulfilled]: (state,action) => {
-      //console.log(action.payload);
+      console.log(action.payload);
       state.loading = false;
       state.eventmenu = action.payload.data;
       state.fetched = true;

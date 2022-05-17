@@ -6,7 +6,12 @@ function EventListingLocal() {
 
 
 
-return (<EventListingContainer data={data} />)
+return (
+<div>
+  <EventListingContainer data={data} />
+</div>
+
+)
 
 
 }

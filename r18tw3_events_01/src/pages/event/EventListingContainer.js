@@ -2,15 +2,15 @@ import React, {useState, useEffect} from 'react';
 import ListingCard from './ListingCard';
 
 
-
 function EventListingContainer({data}) {
 
-  console.log(data);
-  /** Re-arranged JSON data into new Array */
-  const [event, setEvent] = useState([]);
+   /** Re-arranged JSON data into new Array */
+   const [event, setEvent] = useState([]);
+  console.log("Event Listing data : ",data);
+
 
   /** JSONAPI "included" type "'paragraph--hourly_schedule'" data push to schedule item */
-  const scheduleArr = (nid, data ) => {
+  const scheduleArr = (nid, data ) => {   
     const arr = [];
     data?.included?.map(inc => {
         const { 
@@ -33,8 +33,8 @@ function EventListingContainer({data}) {
     return arr;
   }
 
-  /** JSONAPI "included" type "'paragraph--address_form'" data push to Venue item */
-  const eventLocation = (nid,data) => {
+   /** JSONAPI "included" type "'paragraph--address_form'" data push to Venue item */
+   const eventLocation = (nid,data) => {
     const arr = [];
     
     data?.included?.map(inc => {
@@ -53,10 +53,11 @@ function EventListingContainer({data}) {
 
   }
 
+  
 
-
-  useEffect(()=>{
-    const arr = [];
+  useEffect(()=> {
+    const arr = []
+    console.log("UseEffect ",data);
 
     /** JSON DATA TO NEW ARRAY FOR "event" STATE  */
     data?.data?.map(item => {
@@ -79,20 +80,20 @@ function EventListingContainer({data}) {
         })
   
     })
-    /** SET ARRAY INTO THE "event" STATE */
+
+    
+
     setEvent(arr);
   },[data])
 
-  console.log("Event ",event);
-
+  console.log('Event State: ', event);
   
-
 
   return (
     <div>
       <h1 className="text-3xl font-light tracking-wide">Events</h1>
-      <ListingCard  event={event} />
-      </div>
+      <ListingCard event={event} />
+    </div>
   )
 }
 

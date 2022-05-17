@@ -12,12 +12,14 @@ function EventListingRemote() {
     dispatch(actionEvents());
   },[dispatch])
 
+   /** NOTE: some reason in local included data not fetched   */
   const {eventsdata} = useSelector(state => state.events_data)
   console.log(eventsdata);
+  
 
   return (
     <div>
-      <EventListingContainer data={eventsdata} />
+      <EventListingContainer data={eventsdata} /> 
     </div>
   )
 }

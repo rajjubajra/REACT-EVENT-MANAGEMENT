@@ -1,11 +1,14 @@
 import React,{useEffect, useState} from 'react';
 import UsernameField from '../../component/form/UsernameField';
+import EmailField from '../../component/form/EmailField';
 import RadioTrue from '../../component/form/RadioTrue';
 import RadioFalse from '../../component/form/RadioFalse';
 import PasswordField from '../../component/form/PasswordField';
 import RegisterButton from '../../component/form/RegisterButton';
 import SignInButton from '../../component/form/SignInButton';
 import {loginuser} from '../loginuser/loginuser';
+import {registerUser} from '../loginuser/registeruser'; 
+
 
 
 function EventBookingForm({nid}) {
@@ -22,11 +25,36 @@ function EventBookingForm({nid}) {
   const [message, setMessage] = useState('');
   const [msgUsername, setMsgUsername] = useState(false);
   const [msgPassword, setMsgPassword] = useState(false);
+  const [msgEmail, setMsgEmail] = useState(false);
+
+  /** Set Registration Form true */
+  const [registrationForm, setRegistrationForm] = useState(false);
+
+
+  useEffect(()=>{
+    setMessage("")
+  },[radio])
 
 
   const handleRegister = (e) => {
     e.preventDefault();
-    console.log(e); 
+    console.log("REGISTER",e); 
+
+
+    /** FORM VALIDATION */
+    /** CHECK username input filed */
+    !username ? setMsgUsername(true) : setMsgUsername(false)
+    /** CHECK password input filed */
+    !password ? setMsgPassword(true) : setMsgPassword(false)
+    /** CHECK email input filed */
+    !email ? setMsgEmail(true) : setMsgEmail(false)
+    /** if username or password or email field is empty, setMessage is empty [Signin Message] = empty */
+
+
+    return registrationForm 
+    ? registerUser(username,email,password, setMessage)
+    : setRegistrationForm(true)
+
   }
 
 
@@ -65,11 +93,13 @@ function EventBookingForm({nid}) {
           message && 
           <div className="my-4 p-2 text-red-700 bg-red-200">{message}</div>
       }   
-      <p>Please sign in to book a place</p>
 
 
-      
-      
+      { /** LOGIN FORM **************************/
+        radio
+        ? /** YES RADIO BUTTON USE LOGIN FORM */
+      <div>
+        <h3 className="text-xl font-thin p-2 my-2 bg-gray-50">Please sign in to book a place</h3>
       <form className="md:w-1/2 w-full" onSubmit={handleSignIn}>
       
       {/** Username field */}
@@ -92,16 +122,61 @@ function EventBookingForm({nid}) {
         </div>
 
 {/** PASSWORD INPUT */}
-      {
-        radio
-        ? <PasswordField setPassword={setPassword} msgPassword={msgPassword}  />
-        : <RegisterButton  />
-      }
-      {
-        radio &&  <SignInButton />
-      }
+      
+        <PasswordField setPassword={setPassword} msgPassword={msgPassword}  />
+      
+        <SignInButton />
+      
       </form>
+      </div>
 
+
+
+      
+
+      : /** IF RADIO BUTTONS false */ 
+      /** REGISTRATION FORM *************************/
+      <div>
+
+      <h3 className="text-xl font-thin p-2 bg-gray-50 my-2">Please register</h3>
+      
+      <form className="md:w-1/2 w-full" onSubmit={handleRegister}>
+      
+      {/** Username Field */}
+        <UsernameField setUsername={setUsername} msgUsername={msgUsername} />
+
+      {
+        registrationForm 
+        && 
+        <span>
+        <EmailField setEmail={setEmail} msgEmail={msgEmail} />
+        <PasswordField setPassword={setPassword} msgPassword={msgPassword} />
+        </span>
+      }
+      
+      
+
+{/** RADIO BUTTONS */}
+        <div className="my-3">          
+          <label>Do you have a booking password</label>
+          <div>
+            <div>
+              <RadioTrue setRadio={setRadio} />
+              <span className="ml-2">Yes</span>
+            </div>
+            <div>
+              <RadioFalse setRadio={setRadio} />
+              <span className="ml-2">No, I have not booked before</span>
+            </div>  
+          </div>      
+        </div>
+
+{/** PASSWORD INPUT */}
+      <RegisterButton  />
+    
+      </form>
+        </div>
+      }
     </div>
   )
 }

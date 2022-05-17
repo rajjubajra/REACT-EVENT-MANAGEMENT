@@ -3,7 +3,11 @@ import axios from 'axios';
 import { baseurl } from './config';
 
 
-export const actionEvents = createAsyncThunk("events_data/getEventsData", async () => {
+export const actionEvents = createAsyncThunk("events_data/getEventsData", 
+
+async () => {
+
+  console.log("actionEvents");
 
   return axios({
     method: 'GET',
@@ -41,7 +45,7 @@ const eventsSlice = createSlice({
       state.loading = true;
     },
     [actionEvents.fulfilled]: (state,action) => {
-      //console.log(action.payload);
+      console.log(action.payload.data);
       state.loading = false;
       state.eventsdata = action.payload;
       state.fetched = true;
