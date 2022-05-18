@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import UsernameField from '../../component/form/UsernameField';
 import PasswordField from '../../component/form/PasswordField';
 import SignInButton from '../../component/form/SignInButton';
@@ -7,10 +7,11 @@ import {useDispatch} from 'react-redux';
 //import {actionUserLogin} from '../../redux/userloginSlice';
 import {loginuser} from '../user/loginuser';
 import AlertMessage from '../../component/AlertMessage';
+import {registerbooking} from '../eventBooking/registerbooking';
 
 
 
-function LoginForm(){
+function LoginForm({nodeId}){
 
   /** set password input field view and hide */
   const [viewPassField, setViewPassField] = useState(false);
@@ -20,7 +21,7 @@ function LoginForm(){
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
 
-  /** messages */
+  /** Login Status Messages - "fetched from remote backend" */
   const [message, setMessage] = useState('');
   const [status, setStatus] = useState('');
 
@@ -28,10 +29,9 @@ function LoginForm(){
   /** Input Field Message True of false */
   const [msgUsername, setMsgUsername] = useState(false);
   const [msgPassword, setMsgPassword] = useState(false);
-  
 
-
-  const dispatch = useDispatch();
+  /** After Login Success set UserId and Node Id */
+  const [userId, setUserId] = useState('');
   
   const handleSignIn = (e) => {
 
@@ -43,18 +43,25 @@ function LoginForm(){
     password ? setMsgPassword(false) : setMsgPassword(true);
 
     if(username && password) {
-     // dispatch(actionUserLogin(username, password));
-      loginuser(username, password, setMessage, setStatus);
+      //dispatch(actionUserLogin(username, password));
+      loginuser(username, password, setMessage, setStatus, setUserId);
       console.log("userlogin ???", username, password);
     }
-
   }
 
+  const dispatch = useDispatch();
 
   const handleFormField = (sta) => {
     setViewPassField(sta);
     dispatch(actionBookingPassword(true))
   }
+
+
+  /** Post Booking Log Book  */
+  useEffect(()=> {
+    status === 200 
+    && registerbooking({status, userId, nodeId})
+  },[nodeId, status, userId])
 
 
   return (
@@ -72,6 +79,10 @@ function LoginForm(){
           <label>Do you have a booking password</label>
           <div>
             <div>
+    {/** 
+    This radio button do View 
+    Change Login Form and Register Form
+    */}           
             <input type="radio" 
                     className="input-field" 
                     name="booking-password" 

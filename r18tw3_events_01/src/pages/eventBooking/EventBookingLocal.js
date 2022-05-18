@@ -5,15 +5,15 @@ import {useSelector} from 'react-redux';
 
 
 
-function EventBookingLocal() {
+function EventBookingLocal({nodeId}) {
 
   const {status} = useSelector(state=>state.booking_password);
   console.log("STATUS : ", status);
 
-  
+
   return (
       status 
-      ? <LoginForm />
+      ? <LoginForm nodeId={nodeId} />
       : <RegisterUserForm />
   )
 }

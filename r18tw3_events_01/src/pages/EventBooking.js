@@ -13,8 +13,8 @@ function EventBooking() {
   
   return (
     window.location.origin === 'http://localhost:3000'
-    ? <EventBookingLocal />
-    : <EventBookingRemote />
+    ? <EventBookingLocal nodeId={nid} />
+    : <EventBookingRemote nodeId={nid} />
 
   )
 }
