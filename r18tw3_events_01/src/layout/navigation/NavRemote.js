@@ -11,7 +11,7 @@ function NavRemote() {
   },[dispatch])
 
   const {eventmenu} = useSelector(state => state.event_menu);
-  //console.log(eventmenu);
+  console.log(eventmenu);
 
 
   /** Main Menu Array and SubMenu Array */
@@ -44,7 +44,7 @@ function NavRemote() {
 
   },[eventmenu])
 
- // console.log("main",main, "sub", sub);
+ console.log("main",main, "sub", sub);
 
   return (
     <div>

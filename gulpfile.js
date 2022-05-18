@@ -20,7 +20,7 @@ function moveFiles() {
 }
 
 // function watchTask() {
-//   watch('./tw3r18_profile_11/build/**/*.*');
+//   watch('./tw3r18_events_01/build/**/*.*');
 // }
 
 //default gulp

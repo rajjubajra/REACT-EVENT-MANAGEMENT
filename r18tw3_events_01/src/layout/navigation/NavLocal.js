@@ -41,7 +41,7 @@ function NavLocal() {
 
 
   return (
-     <div>
+    <div>
       <NavContainer main={main} sub={sub} />
     </div>
   )
