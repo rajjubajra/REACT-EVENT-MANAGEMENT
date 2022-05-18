@@ -20,7 +20,6 @@ function App() {
           <Route path="/event-details/:nid" element={<EventDetails />} />
           <Route path="/event-booking/:nid" element={<EventBooking />} />
         </Routes>
-
       </Layout>
     </BrowserRouter>  
   );
