@@ -9,19 +9,17 @@ import {actionEventMenu} from '../redux/evenmenuSlice';
 
 function Layout({children}) {
 
-
   const dispatch = useDispatch();
   useEffect(()=>{
     dispatch(actionEventMenu());
   },[dispatch])
 
-
+  
   const {fetched, loading} = useSelector(state => state.event_menu);
   console.log("PAGE LAYOUT",fetched, loading);
 
 
   return (
-    fetched &&
     <div className="w-full px-3">
       <div>
         <Header />
