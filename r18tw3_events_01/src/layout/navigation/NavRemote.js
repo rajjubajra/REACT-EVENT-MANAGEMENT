@@ -4,7 +4,6 @@ import NavContainer from './NavContainer';
 
 function NavRemote() {
 
-
   const {eventmenu} = useSelector(state => state.event_menu);
   console.log(eventmenu);
 
@@ -19,7 +18,7 @@ function NavRemote() {
     const {enabled, parent, title, url, weight} = item.attributes;
     return !parent && enabled
         ? arr1.push({
-          "id": item.id,  
+          "id": item.id,
           "title": title,
           "url": url,
           "weight": weight
