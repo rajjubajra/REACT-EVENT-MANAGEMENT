@@ -1,18 +1,12 @@
 import React,{useEffect, useState} from 'react';
-import {useDispatch, useSelector} from 'react-redux';
-import {actionEventMenu} from '../../redux/evenmenuSlice';
+import {useSelector} from 'react-redux';
 import NavContainer from './NavContainer';
 
 function NavRemote() {
 
-  const dispatch = useDispatch();
-  useEffect(()=>{
-    dispatch(actionEventMenu());
-  },[dispatch])
 
   const {eventmenu} = useSelector(state => state.event_menu);
   console.log(eventmenu);
-
 
   /** Main Menu Array and SubMenu Array */
   const [main, setMain] = useState([]);
