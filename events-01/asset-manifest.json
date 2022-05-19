@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/react-event-management/events-01/static/css/main.58e959e3.css",
-    "main.js": "/react-event-management/events-01/static/js/main.6c7aa50f.js",
-    "index.html": "/react-event-management/events-01/index.html",
-    "main.58e959e3.css.map": "/react-event-management/events-01/static/css/main.58e959e3.css.map",
-    "main.6c7aa50f.js.map": "/react-event-management/events-01/static/js/main.6c7aa50f.js.map"
+    "main.css": "/react-events/events-01/static/css/main.58e959e3.css",
+    "main.js": "/react-events/events-01/static/js/main.6c7aa50f.js",
+    "index.html": "/react-events/events-01/index.html",
+    "main.58e959e3.css.map": "/react-events/events-01/static/css/main.58e959e3.css.map",
+    "main.6c7aa50f.js.map": "/react-events/events-01/static/js/main.6c7aa50f.js.map"
   },
   "entrypoints": [
     "static/css/main.58e959e3.css",
