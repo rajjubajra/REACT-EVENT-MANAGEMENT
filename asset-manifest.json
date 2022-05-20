@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/REACT-EVENT-MANAGEMENT/r18tw3_events_01/static/css/main.58e959e3.css",
+    "main.js": "/REACT-EVENT-MANAGEMENT/r18tw3_events_01/static/js/main.6c7aa50f.js",
+    "index.html": "/REACT-EVENT-MANAGEMENT/r18tw3_events_01/index.html",
+    "main.58e959e3.css.map": "/REACT-EVENT-MANAGEMENT/r18tw3_events_01/static/css/main.58e959e3.css.map",
+    "main.6c7aa50f.js.map": "/REACT-EVENT-MANAGEMENT/r18tw3_events_01/static/js/main.6c7aa50f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58e959e3.css",
+    "static/js/main.6c7aa50f.js"
+  ]
+}
