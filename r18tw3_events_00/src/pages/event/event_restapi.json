@@ -1,0 +1,644 @@
+[
+  {
+    "nid": [
+      {
+        "value": 94
+      }
+    ],
+    "uuid": [
+      {
+        "value": "8157bcf3-de55-40f6-a34f-2613dd8f3179"
+      }
+    ],
+    "vid": [
+      {
+        "value": 341
+      }
+    ],
+    "langcode": [
+      {
+        "value": "en"
+      }
+    ],
+    "type": [
+      {
+        "target_id": "event_listing",
+        "target_type": "node_type",
+        "target_uuid": "0998d65d-ed97-4f29-9fbf-345b6fce4801"
+      }
+    ],
+    "revision_timestamp": [
+      {
+        "value": "2022-05-06T02:52:17+00:00",
+        "format": "Y-m-d\\TH:i:sP"
+      }
+    ],
+    "revision_uid": [
+      {
+        "target_id": 1,
+        "target_type": "user",
+        "target_uuid": "98fd8b15-fbc5-4ceb-895c-49dd9c31f88e",
+        "url": "/yw-d9/user/1"
+      }
+    ],
+    "revision_log": [
+      
+    ],
+    "status": [
+      {
+        "value": true
+      }
+    ],
+    "uid": [
+      {
+        "target_id": 1,
+        "target_type": "user",
+        "target_uuid": "98fd8b15-fbc5-4ceb-895c-49dd9c31f88e",
+        "url": "/yw-d9/user/1"
+      }
+    ],
+    "title": [
+      {
+        "value": "Weekend  Training Session"
+      }
+    ],
+    "created": [
+      {
+        "value": "2022-05-06T02:41:47+00:00",
+        "format": "Y-m-d\\TH:i:sP"
+      }
+    ],
+    "changed": [
+      {
+        "value": "2022-05-06T02:52:17+00:00",
+        "format": "Y-m-d\\TH:i:sP"
+      }
+    ],
+    "promote": [
+      {
+        "value": true
+      }
+    ],
+    "sticky": [
+      {
+        "value": false
+      }
+    ],
+    "default_langcode": [
+      {
+        "value": true
+      }
+    ],
+    "revision_translation_affected": [
+      {
+        "value": true
+      }
+    ],
+    "path": [
+      {
+        "alias": null,
+        "pid": null,
+        "langcode": "en"
+      }
+    ],
+    "field_event_booking_numbers": [
+      
+    ],
+    "field_event_data_and_time": [
+      {
+        "value": "2022-08-27T00:00:00+00:00",
+        "end_value": "2022-08-28T23:59:00+00:00",
+        "duration": 2879,
+        "rrule": null,
+        "rrule_index": null,
+        "timezone": "",
+        "format": "Y-m-d\\TH:i:sP"
+      }
+    ],
+    "field_event_details": [
+      {
+        "value": "<p>Temporibus enim commodi iusto libero magni deleniti quod quam consequuntur! Commodi minima excepturi repudiandae velit hic maxime doloremque.</p>\r\n\r\n<p>Quaerat provident commodi consectetur veniam similique ad earum omnis ipsum saepe, voluptas, hic voluptates pariatur est explicabo fugiat,</p>\r\n\r\n<p>Tdolorum eligendi quam cupiditate excepturi mollitia maiores labore suscipit quas? Nulla, placeat. Voluptatem quaerat non architecto ab laudantium modi minima sunt esse temporibus sint culpa, recusandae aliquam numquam totam ratione voluptas quod exercitationem fuga. Possimus quis earum veniam quasi aliquam eligendi, placeat qui corpori</p>\r\n",
+        "format": "basic_html",
+        "processed": "<p>Temporibus enim commodi iusto libero magni deleniti quod quam consequuntur! Commodi minima excepturi repudiandae velit hic maxime doloremque.</p>\n\n<p>Quaerat provident commodi consectetur veniam similique ad earum omnis ipsum saepe, voluptas, hic voluptates pariatur est explicabo fugiat,</p>\n\n<p>Tdolorum eligendi quam cupiditate excepturi mollitia maiores labore suscipit quas? Nulla, placeat. Voluptatem quaerat non architecto ab laudantium modi minima sunt esse temporibus sint culpa, recusandae aliquam numquam totam ratione voluptas quod exercitationem fuga. Possimus quis earum veniam quasi aliquam eligendi, placeat qui corpori</p>"
+      }
+    ],
+    "field_event_location": [
+      {
+        "target_id": 72,
+        "target_revision_id": 174,
+        "target_type": "paragraph",
+        "target_uuid": "dd9aeccf-e8af-4b20-89f6-8321dde0af38"
+      }
+    ],
+    "field_event_organizer": [
+      {
+        "value": "<p>Abc Committee</p>\r\n",
+        "format": "basic_html",
+        "processed": "<p>Abc Committee</p>"
+      }
+    ],
+    "field_hourly_schedule": [
+      {
+        "target_id": 73,
+        "target_revision_id": 175,
+        "target_type": "paragraph",
+        "target_uuid": "1bdc8580-5f06-4eb9-b564-6f53b502d8b4"
+      },
+      {
+        "target_id": 74,
+        "target_revision_id": 176,
+        "target_type": "paragraph",
+        "target_uuid": "ecb4e57d-a1f0-48c9-80c1-c99706ad1c00"
+      },
+      {
+        "target_id": 75,
+        "target_revision_id": 177,
+        "target_type": "paragraph",
+        "target_uuid": "8f96fca5-ff16-4a32-8259-05f9548680be"
+      },
+      {
+        "target_id": 76,
+        "target_revision_id": 178,
+        "target_type": "paragraph",
+        "target_uuid": "ecdcef0e-9e0a-4fc3-a619-b512daece376"
+      },
+      {
+        "target_id": 77,
+        "target_revision_id": 179,
+        "target_type": "paragraph",
+        "target_uuid": "28f18157-88d6-4ef4-a368-9f135473d581"
+      },
+      {
+        "target_id": 78,
+        "target_revision_id": 180,
+        "target_type": "paragraph",
+        "target_uuid": "81a9135e-c13a-4c85-9157-8c94b44c3956"
+      }
+    ]
+  },
+  {
+    "nid": [
+      {
+        "value": 93
+      }
+    ],
+    "uuid": [
+      {
+        "value": "fa93974e-33ab-4dd7-9974-45bb1a4bd021"
+      }
+    ],
+    "vid": [
+      {
+        "value": 337
+      }
+    ],
+    "langcode": [
+      {
+        "value": "en"
+      }
+    ],
+    "type": [
+      {
+        "target_id": "event_listing",
+        "target_type": "node_type",
+        "target_uuid": "0998d65d-ed97-4f29-9fbf-345b6fce4801"
+      }
+    ],
+    "revision_timestamp": [
+      {
+        "value": "2022-05-06T01:58:12+00:00",
+        "format": "Y-m-d\\TH:i:sP"
+      }
+    ],
+    "revision_uid": [
+      {
+        "target_id": 1,
+        "target_type": "user",
+        "target_uuid": "98fd8b15-fbc5-4ceb-895c-49dd9c31f88e",
+        "url": "/yw-d9/user/1"
+      }
+    ],
+    "revision_log": [
+      
+    ],
+    "status": [
+      {
+        "value": true
+      }
+    ],
+    "uid": [
+      {
+        "target_id": 1,
+        "target_type": "user",
+        "target_uuid": "98fd8b15-fbc5-4ceb-895c-49dd9c31f88e",
+        "url": "/yw-d9/user/1"
+      }
+    ],
+    "title": [
+      {
+        "value": "New Learning Sesson"
+      }
+    ],
+    "created": [
+      {
+        "value": "2022-05-05T05:50:27+00:00",
+        "format": "Y-m-d\\TH:i:sP"
+      }
+    ],
+    "changed": [
+      {
+        "value": "2022-05-06T01:58:12+00:00",
+        "format": "Y-m-d\\TH:i:sP"
+      }
+    ],
+    "promote": [
+      {
+        "value": true
+      }
+    ],
+    "sticky": [
+      {
+        "value": false
+      }
+    ],
+    "default_langcode": [
+      {
+        "value": true
+      }
+    ],
+    "revision_translation_affected": [
+      {
+        "value": true
+      }
+    ],
+    "path": [
+      {
+        "alias": null,
+        "pid": null,
+        "langcode": "en"
+      }
+    ],
+    "field_event_booking_numbers": [
+      
+    ],
+    "field_event_data_and_time": [
+      {
+        "value": "2022-06-05T10:00:00+00:00",
+        "end_value": "2022-06-05T11:00:00+00:00",
+        "duration": 60,
+        "rrule": null,
+        "rrule_index": null,
+        "timezone": "",
+        "format": "Y-m-d\\TH:i:sP"
+      }
+    ],
+    "field_event_details": [
+      {
+        "value": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit, tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit, quia.</p>\r\n\r\n<p>Quo neque error repudiandae fuga? Ipsa laudantium molestias eos sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam recusandae alias error harum maxime adipisci amet laborum. Perspiciatis minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit quibusdam sed amet tempora. Sit laborum ab, eius fugit doloribus tenet.</p>\r\n",
+        "format": "basic_html",
+        "processed": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit, tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit, quia.</p>\n\n<p>Quo neque error repudiandae fuga? Ipsa laudantium molestias eos sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam recusandae alias error harum maxime adipisci amet laborum. Perspiciatis minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit quibusdam sed amet tempora. Sit laborum ab, eius fugit doloribus tenet.</p>"
+      }
+    ],
+    "field_event_location": [
+      {
+        "target_id": 69,
+        "target_revision_id": 160,
+        "target_type": "paragraph",
+        "target_uuid": "5c62777f-90f4-4780-9132-de89c74324b5"
+      }
+    ],
+    "field_event_organizer": [
+      {
+        "value": "<p>ABC Goupr</p>\r\n",
+        "format": "basic_html",
+        "processed": "<p>ABC Goupr</p>"
+      }
+    ],
+    "field_hourly_schedule": [
+      {
+        "target_id": 68,
+        "target_revision_id": 161,
+        "target_type": "paragraph",
+        "target_uuid": "c3d16d73-e3bb-4929-960d-6f41924e644f"
+      }
+    ]
+  },
+  {
+    "nid": [
+      {
+        "value": 91
+      }
+    ],
+    "uuid": [
+      {
+        "value": "a3957a67-a244-4211-8865-86d513591d29"
+      }
+    ],
+    "vid": [
+      {
+        "value": 339
+      }
+    ],
+    "langcode": [
+      {
+        "value": "en"
+      }
+    ],
+    "type": [
+      {
+        "target_id": "event_listing",
+        "target_type": "node_type",
+        "target_uuid": "0998d65d-ed97-4f29-9fbf-345b6fce4801"
+      }
+    ],
+    "revision_timestamp": [
+      {
+        "value": "2022-05-06T02:01:27+00:00",
+        "format": "Y-m-d\\TH:i:sP"
+      }
+    ],
+    "revision_uid": [
+      {
+        "target_id": 1,
+        "target_type": "user",
+        "target_uuid": "98fd8b15-fbc5-4ceb-895c-49dd9c31f88e",
+        "url": "/yw-d9/user/1"
+      }
+    ],
+    "revision_log": [
+      
+    ],
+    "status": [
+      {
+        "value": true
+      }
+    ],
+    "uid": [
+      {
+        "target_id": 1,
+        "target_type": "user",
+        "target_uuid": "98fd8b15-fbc5-4ceb-895c-49dd9c31f88e",
+        "url": "/yw-d9/user/1"
+      }
+    ],
+    "title": [
+      {
+        "value": "Event Two"
+      }
+    ],
+    "created": [
+      {
+        "value": "2022-04-29T10:16:05+00:00",
+        "format": "Y-m-d\\TH:i:sP"
+      }
+    ],
+    "changed": [
+      {
+        "value": "2022-05-06T02:01:27+00:00",
+        "format": "Y-m-d\\TH:i:sP"
+      }
+    ],
+    "promote": [
+      {
+        "value": true
+      }
+    ],
+    "sticky": [
+      {
+        "value": false
+      }
+    ],
+    "default_langcode": [
+      {
+        "value": true
+      }
+    ],
+    "revision_translation_affected": [
+      {
+        "value": true
+      }
+    ],
+    "path": [
+      {
+        "alias": null,
+        "pid": null,
+        "langcode": "en"
+      }
+    ],
+    "field_event_booking_numbers": [
+      
+    ],
+    "field_event_data_and_time": [
+      {
+        "value": "2022-05-08T09:30:00+00:00",
+        "end_value": "2022-05-08T16:30:00+00:00",
+        "duration": 420,
+        "rrule": null,
+        "rrule_index": null,
+        "timezone": "",
+        "format": "Y-m-d\\TH:i:sP"
+      }
+    ],
+    "field_event_details": [
+      {
+        "value": "<h2>Event Two&nbsp;</h2>\r\n\r\n<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit, tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit, quia. Quo neque error repudiandae</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+        "format": "basic_html",
+        "processed": "<h2>Event Two </h2>\n\n<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit, tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit, quia. Quo neque error repudiandae</p>\n\n<p> </p>"
+      }
+    ],
+    "field_event_location": [
+      {
+        "target_id": 71,
+        "target_revision_id": 166,
+        "target_type": "paragraph",
+        "target_uuid": "61c09802-8e73-4f17-852b-9e722091d1eb"
+      }
+    ],
+    "field_event_organizer": [
+      {
+        "value": "<p>Name-who Organizing&nbsp;</p>\r\n\r\n<p>Address, Place, Tel: 000 000 000</p>\r\n",
+        "format": "basic_html",
+        "processed": "<p>Name-who Organizing </p>\n\n<p>Address, Place, Tel: 000 000 000</p>"
+      }
+    ],
+    "field_hourly_schedule": [
+      {
+        "target_id": 65,
+        "target_revision_id": 167,
+        "target_type": "paragraph",
+        "target_uuid": "cdc1fd1b-bdb1-4d27-a5b4-684993196e19"
+      },
+      {
+        "target_id": 66,
+        "target_revision_id": 168,
+        "target_type": "paragraph",
+        "target_uuid": "e1a10056-6ff2-4dcf-ace0-4eb12e9cbf31"
+      },
+      {
+        "target_id": 67,
+        "target_revision_id": 169,
+        "target_type": "paragraph",
+        "target_uuid": "bc182e8d-f8ea-4341-94fc-c76297b666a5"
+      }
+    ]
+  },
+  {
+    "nid": [
+      {
+        "value": 90
+      }
+    ],
+    "uuid": [
+      {
+        "value": "ff10f7c4-5586-4d0b-b08d-e7c7d651672c"
+      }
+    ],
+    "vid": [
+      {
+        "value": 338
+      }
+    ],
+    "langcode": [
+      {
+        "value": "en"
+      }
+    ],
+    "type": [
+      {
+        "target_id": "event_listing",
+        "target_type": "node_type",
+        "target_uuid": "0998d65d-ed97-4f29-9fbf-345b6fce4801"
+      }
+    ],
+    "revision_timestamp": [
+      {
+        "value": "2022-05-06T01:59:16+00:00",
+        "format": "Y-m-d\\TH:i:sP"
+      }
+    ],
+    "revision_uid": [
+      {
+        "target_id": 1,
+        "target_type": "user",
+        "target_uuid": "98fd8b15-fbc5-4ceb-895c-49dd9c31f88e",
+        "url": "/yw-d9/user/1"
+      }
+    ],
+    "revision_log": [
+      
+    ],
+    "status": [
+      {
+        "value": true
+      }
+    ],
+    "uid": [
+      {
+        "target_id": 1,
+        "target_type": "user",
+        "target_uuid": "98fd8b15-fbc5-4ceb-895c-49dd9c31f88e",
+        "url": "/yw-d9/user/1"
+      }
+    ],
+    "title": [
+      {
+        "value": "Event One"
+      }
+    ],
+    "created": [
+      {
+        "value": "2022-04-29T09:03:56+00:00",
+        "format": "Y-m-d\\TH:i:sP"
+      }
+    ],
+    "changed": [
+      {
+        "value": "2022-05-06T01:59:16+00:00",
+        "format": "Y-m-d\\TH:i:sP"
+      }
+    ],
+    "promote": [
+      {
+        "value": true
+      }
+    ],
+    "sticky": [
+      {
+        "value": false
+      }
+    ],
+    "default_langcode": [
+      {
+        "value": true
+      }
+    ],
+    "revision_translation_affected": [
+      {
+        "value": true
+      }
+    ],
+    "path": [
+      {
+        "alias": null,
+        "pid": null,
+        "langcode": "en"
+      }
+    ],
+    "field_event_booking_numbers": [
+      
+    ],
+    "field_event_data_and_time": [
+      {
+        "value": "2022-05-08T10:09:00+00:00",
+        "end_value": "2022-05-08T12:09:00+00:00",
+        "duration": 120,
+        "rrule": null,
+        "rrule_index": null,
+        "timezone": "",
+        "format": "Y-m-d\\TH:i:sP"
+      }
+    ],
+    "field_event_details": [
+      {
+        "value": "<h2>Test Event Details</h2>\r\n\r\n<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem.</p>\r\n\r\n<p>Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit, tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit, quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam recusandae alias error harum maxime adipisci amet laborum. Perspiciatis minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit quibusdam sed amet tempora.</p>\r\n\r\n<p>Sit laborum ab, eius fugit doloribus tenetur fugiat, temporibus enim commodi iusto libero magni deleniti quod quam consequuntur! Commodi minima excepturi repudiandae velit hic maxime doloremque. Quaerat provident commodi consectetur veniam similique ad earum omnis ipsum saepe, voluptas, hic voluptates pariatur est explicabo fugiat, dolorum eligendi quam cupiditate excepturi mollitia maiores labore suscipit quas? Nulla, placeat. Voluptatem quaerat non architecto ab laudantium modi minima sunt esse temporibus sint culpa, recusandae aliquam numquam totam ratione voluptas quod exercitationem fuga. Possimus quis earum veniam quasi aliquam eligendi, placeat qui corporis!</p>\r\n",
+        "format": "basic_html",
+        "processed": "<h2>Test Event Details</h2>\n\n<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem.</p>\n\n<p>Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit, tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit, quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam recusandae alias error harum maxime adipisci amet laborum. Perspiciatis minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit quibusdam sed amet tempora.</p>\n\n<p>Sit laborum ab, eius fugit doloribus tenetur fugiat, temporibus enim commodi iusto libero magni deleniti quod quam consequuntur! Commodi minima excepturi repudiandae velit hic maxime doloremque. Quaerat provident commodi consectetur veniam similique ad earum omnis ipsum saepe, voluptas, hic voluptates pariatur est explicabo fugiat, dolorum eligendi quam cupiditate excepturi mollitia maiores labore suscipit quas? Nulla, placeat. Voluptatem quaerat non architecto ab laudantium modi minima sunt esse temporibus sint culpa, recusandae aliquam numquam totam ratione voluptas quod exercitationem fuga. Possimus quis earum veniam quasi aliquam eligendi, placeat qui corporis!</p>"
+      }
+    ],
+    "field_event_location": [
+      {
+        "target_id": 70,
+        "target_revision_id": 162,
+        "target_type": "paragraph",
+        "target_uuid": "e27a0f34-5a24-45ac-bd6e-d8418a182c70"
+      }
+    ],
+    "field_event_organizer": [
+      {
+        "value": "<p>Name-who Organizing Event</p>\r\n",
+        "format": "basic_html",
+        "processed": "<p>Name-who Organizing Event</p>"
+      }
+    ],
+    "field_hourly_schedule": [
+      {
+        "target_id": 62,
+        "target_revision_id": 163,
+        "target_type": "paragraph",
+        "target_uuid": "d1304979-dad1-4141-8895-467717f11a26"
+      },
+      {
+        "target_id": 63,
+        "target_revision_id": 164,
+        "target_type": "paragraph",
+        "target_uuid": "44eb0c6a-543d-4050-9daa-fd11734cb865"
+      },
+      {
+        "target_id": 64,
+        "target_revision_id": 165,
+        "target_type": "paragraph",
+        "target_uuid": "39e995cf-f32b-4c93-8d6e-640fc87b8b8e"
+      }
+    ]
+  }
+]
