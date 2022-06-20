@@ -3,11 +3,12 @@ import UsernameField from '../../component/form/UsernameField';
 import PasswordField from '../../component/form/PasswordField';
 import SubmitButton from '../../component/form/SubmitButton';
 import {useDispatch, useSelector} from 'react-redux';
-import {loginuser} from '../user/loginuser';
+import {loginuser} from './loginuser';
 import AlertMessage from '../../component/AlertMessage';
 import {actionLoginStatus} from '../../redux/loginStatusSlice';
 import {actionLoginStatusError} from '../../redux/loginStatusErrorSlice';
 import UserRegisterStatusForm from './UserRegisterStatusForm';
+import {simpleOauthToken} from '../../config/simpleOauthToken';
 
 
 
@@ -27,6 +28,13 @@ function LoginForm({nodeId}){
   const [status, setStatus] = useState('');
   /** Login Error Response [axios] */
   const [error, setError] = useState('');
+
+
+  /** JWT TOKEN STATUS  */
+  const [tokenStatus, setTokenStatus] = useState('');
+  const [tokenError, setTokenError] = useState('');
+  console.log("JWT STATUS : ",tokenStatus, tokenError);
+
 
   /** Login status sent to redux state management */
   useEffect(()=>{
@@ -62,10 +70,9 @@ function LoginForm({nodeId}){
       //dispatch(actionUserLogin(username, password));
       loginuser(username, password, setStatus, setError);
       console.log("userlogin ???", username, password, status);
+      simpleOauthToken(username, password, setTokenStatus, setTokenError);
     }
   }
-
-  
 
 
   return (

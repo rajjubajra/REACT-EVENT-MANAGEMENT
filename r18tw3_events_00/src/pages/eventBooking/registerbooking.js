@@ -5,10 +5,11 @@ import {csrfToken} from '../../config/csrfToken';
 
 
 
-export const registerbooking = async ({userId, nodeId}) => {
+
+export const registerbooking = async ({userId, nodeId, username, password}) => {
 
     console.log("REGISTER BOOKING", "userId", userId, "nodeId", nodeId);
-
+   
     const node = {
       type: [{ 
         target_id: 'event_booking_log_book',
