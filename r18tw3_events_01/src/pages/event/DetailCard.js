@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 
 function DetailCard({event}) {
 
-  
+  console.log("event Card ",event);
   const monthArr = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'];
 
 

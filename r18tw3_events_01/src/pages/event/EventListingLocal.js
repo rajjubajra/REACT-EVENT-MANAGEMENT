@@ -8,12 +8,13 @@ import EventListingContainer from './EventListingContainer';
 function EventListingLocal() {
 
 
+
 return (
 <div>
   <EventListingContainer 
-  data={data} 
-  data_location={data_paragraph_location} 
-  data_hourlyScedule={data_paragraph_hourlySchedule} />
+    data={data}
+    data_location={data_paragraph_location}
+    data_hourlyScedule={data_paragraph_hourlySchedule} />
 </div>
 
 )

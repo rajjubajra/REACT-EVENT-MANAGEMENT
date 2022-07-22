@@ -11,12 +11,18 @@ function EventDetailsRemote({nid}) {
     dispatch(actionEvents());
   },[dispatch])
 
-  const {eventsdata} = useSelector(state => state.events_data);
+  /** NOTE: DATA FETCHED FROM REST API - source : Drupal View   */
+  const data = useSelector(state => state.events_data.eventsdata.data)
+  const data_hourlySchedule = useSelector(state => state.event_hourly_schedule.eventHourlySchedule.data)
+  const data_address = useSelector(state => state.event_address.eventAddress.data);
 
   return (
     <div>
-      <div>EventDetailsRemote</div>
-      <EventDetailContainer nid={nid} data={eventsdata} />
+    <EventDetailContainer 
+        nid={nid}
+        data={data}
+        data_address={data_address}
+        data_hourlySchedule={data_hourlySchedule} />
     </div> 
   )
 }

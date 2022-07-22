@@ -6,10 +6,23 @@ import Events from './pages/Events';
 import EventDetails from './pages/EventDetails';
 import EventBooking from './pages/EventBooking';
 import Loading from './component/Loading';
+import {actionEvents} from './redux/eventsSlice';
+import {actionEventAddress} from './redux/eventAddressSlice';
+import {actionEventHourlySchedule} from './redux/eventHourlyScheduleSlice';
+import {useDispatch} from 'react-redux';
 
 
 
 function App() {
+
+  const dispatch = useDispatch();
+
+  useEffect(()=>{
+    dispatch(actionEvents());
+    dispatch(actionEventAddress());
+    dispatch(actionEventHourlySchedule());
+  },[dispatch]);
+
 
   const [load,setLoad] = useState(false);
 

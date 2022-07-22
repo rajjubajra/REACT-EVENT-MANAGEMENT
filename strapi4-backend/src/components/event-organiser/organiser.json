@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_event_organiser_organisers",
+  "info": {
+    "displayName": "Organiser",
+    "icon": "hands"
+  },
+  "options": {},
+  "attributes": {
+    "EventOrganiser": {
+      "type": "richtext"
+    }
+  }
+}

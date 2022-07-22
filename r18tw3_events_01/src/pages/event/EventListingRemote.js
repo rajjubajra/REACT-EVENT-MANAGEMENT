@@ -1,26 +1,25 @@
-import React,{useEffect} from 'react';
-import {useDispatch,useSelector} from 'react-redux';
-import {actionEvents} from '../../redux/eventsSlice';
+import React from 'react';
+import {useSelector} from 'react-redux';
 import EventListingContainer from './EventListingContainer';
+
+
 
 
 function EventListingRemote() {
 
-  const dispatch = useDispatch();
+  /** NOTE: DATA FETCHED FROM REST API - source : Drupal View   */
+  const data = useSelector(state => state.events_data.eventsdata.data)
+  const data_paragraph_hourlySchedule 
+  = useSelector(state => state.event_hourly_schedule.eventHourlySchedule.data)
+  const data_paragraph_location 
+  = useSelector(state => state.event_address.eventAddress.data);
 
-  useEffect(()=>{
-    dispatch(actionEvents());
-  },[dispatch])
-
-   /** NOTE: some reason in local included data not fetched   */
-  const {eventsdata} = useSelector(state => state.events_data)
-  console.log(eventsdata);
   
-
   return (
-    <div>
-      <EventListingContainer data={eventsdata} /> 
-    </div>
+    <EventListingContainer 
+      data={data} 
+      data_location={data_paragraph_location} 
+      data_hourlyScedule={data_paragraph_hourlySchedule} />
   )
 }
 

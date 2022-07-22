@@ -4,24 +4,25 @@ import BookingButton  from './BookingButton';
 
 function ListingCard({event}) {
 
+  console.log(event);
   
   const monthArr = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'];
 
+  /** Title Month */
   const titleMonth = (date_time) => {
     const dt = new Date(date_time);
-    return monthArr[dt.getMonth() - 1];
+    return monthArr[dt.getMonth()];
   }
 
+  /** Day and Month */
   const dateFromTo = (datefrom, dateto) => {
-    const from = Date.parse(datefrom);
-    const to = Date.parse(dateto);
+    const from = Date?.parse(datefrom);
+    const to = Date?.parse(dateto);
     const dateFrom = new Date(from)
     const dateTo = new Date(to)
 
-    return `${dateFrom.getDate()} 
-            ${monthArr[dateFrom.getDate()-1]} 
-          - ${dateTo.getDate()} 
-            ${monthArr[dateTo.getDate()-1]}`
+    return `${dateFrom.getDate()} ${monthArr[dateFrom?.getDate()]} 
+            - ${dateTo.getDate()} ${monthArr[dateTo.getDate()]}`
   }
 
 

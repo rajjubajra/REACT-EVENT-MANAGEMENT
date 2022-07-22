@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import EventListingRemote from './event/EventListingRemote';
 import EventListingLocal from './event/EventListingLocal';
 

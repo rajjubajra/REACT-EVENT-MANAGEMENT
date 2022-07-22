@@ -17,10 +17,11 @@ const loginStatusSliceError = createSlice({
 
   extraReducers:{
     [actionLoginStatusError.fulfilled]: (state,action) => {
-      console.log("redux login status Error",action.payload);
+      console.log("redux login status Error", action.payload);
       state.login_error = action.payload;
     },
   },
+
 })
 
 // Action creators are generated for each case reducer function

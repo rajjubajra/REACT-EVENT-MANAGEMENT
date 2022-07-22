@@ -1,3 +1,4 @@
+
 [
   {
     "nid": [
@@ -12,7 +13,7 @@
     ],
     "vid": [
       {
-        "value": 341
+        "value": 380
       }
     ],
     "langcode": [
@@ -29,7 +30,7 @@
     ],
     "revision_timestamp": [
       {
-        "value": "2022-05-06T02:52:17+00:00",
+        "value": "2022-06-29T15:59:49+00:00",
         "format": "Y-m-d\\TH:i:sP"
       }
     ],
@@ -70,7 +71,7 @@
     ],
     "changed": [
       {
-        "value": "2022-05-06T02:52:17+00:00",
+        "value": "2022-06-29T15:59:49+00:00",
         "format": "Y-m-d\\TH:i:sP"
       }
     ],
@@ -102,13 +103,15 @@
       }
     ],
     "field_event_booking_numbers": [
-      
+      {
+        "value": 10
+      }
     ],
     "field_event_data_and_time": [
       {
-        "value": "2022-08-27T00:00:00+00:00",
-        "end_value": "2022-08-28T23:59:00+00:00",
-        "duration": 2879,
+        "value": "2022-07-26T00:00:00+00:00",
+        "end_value": "2022-07-26T23:59:00+00:00",
+        "duration": 1439,
         "rrule": null,
         "rrule_index": null,
         "timezone": "",
@@ -125,7 +128,7 @@
     "field_event_location": [
       {
         "target_id": 72,
-        "target_revision_id": 174,
+        "target_revision_id": 203,
         "target_type": "paragraph",
         "target_uuid": "dd9aeccf-e8af-4b20-89f6-8321dde0af38"
       }
@@ -140,37 +143,37 @@
     "field_hourly_schedule": [
       {
         "target_id": 73,
-        "target_revision_id": 175,
+        "target_revision_id": 204,
         "target_type": "paragraph",
         "target_uuid": "1bdc8580-5f06-4eb9-b564-6f53b502d8b4"
       },
       {
         "target_id": 74,
-        "target_revision_id": 176,
+        "target_revision_id": 205,
         "target_type": "paragraph",
         "target_uuid": "ecb4e57d-a1f0-48c9-80c1-c99706ad1c00"
       },
       {
         "target_id": 75,
-        "target_revision_id": 177,
+        "target_revision_id": 206,
         "target_type": "paragraph",
         "target_uuid": "8f96fca5-ff16-4a32-8259-05f9548680be"
       },
       {
         "target_id": 76,
-        "target_revision_id": 178,
+        "target_revision_id": 207,
         "target_type": "paragraph",
         "target_uuid": "ecdcef0e-9e0a-4fc3-a619-b512daece376"
       },
       {
         "target_id": 77,
-        "target_revision_id": 179,
+        "target_revision_id": 208,
         "target_type": "paragraph",
         "target_uuid": "28f18157-88d6-4ef4-a368-9f135473d581"
       },
       {
         "target_id": 78,
-        "target_revision_id": 180,
+        "target_revision_id": 209,
         "target_type": "paragraph",
         "target_uuid": "81a9135e-c13a-4c85-9157-8c94b44c3956"
       }
@@ -336,7 +339,7 @@
     ],
     "vid": [
       {
-        "value": 339
+        "value": 377
       }
     ],
     "langcode": [
@@ -353,7 +356,7 @@
     ],
     "revision_timestamp": [
       {
-        "value": "2022-05-06T02:01:27+00:00",
+        "value": "2022-06-15T12:04:26+00:00",
         "format": "Y-m-d\\TH:i:sP"
       }
     ],
@@ -394,7 +397,7 @@
     ],
     "changed": [
       {
-        "value": "2022-05-06T02:01:27+00:00",
+        "value": "2022-06-15T12:04:26+00:00",
         "format": "Y-m-d\\TH:i:sP"
       }
     ],
@@ -426,7 +429,9 @@
       }
     ],
     "field_event_booking_numbers": [
-      
+      {
+        "value": 5
+      }
     ],
     "field_event_data_and_time": [
       {
@@ -449,7 +454,7 @@
     "field_event_location": [
       {
         "target_id": 71,
-        "target_revision_id": 166,
+        "target_revision_id": 188,
         "target_type": "paragraph",
         "target_uuid": "61c09802-8e73-4f17-852b-9e722091d1eb"
       }
@@ -464,19 +469,19 @@
     "field_hourly_schedule": [
       {
         "target_id": 65,
-        "target_revision_id": 167,
+        "target_revision_id": 189,
         "target_type": "paragraph",
         "target_uuid": "cdc1fd1b-bdb1-4d27-a5b4-684993196e19"
       },
       {
         "target_id": 66,
-        "target_revision_id": 168,
+        "target_revision_id": 190,
         "target_type": "paragraph",
         "target_uuid": "e1a10056-6ff2-4dcf-ace0-4eb12e9cbf31"
       },
       {
         "target_id": 67,
-        "target_revision_id": 169,
+        "target_revision_id": 191,
         "target_type": "paragraph",
         "target_uuid": "bc182e8d-f8ea-4341-94fc-c76297b666a5"
       }
@@ -495,7 +500,7 @@
     ],
     "vid": [
       {
-        "value": 338
+        "value": 378
       }
     ],
     "langcode": [
@@ -512,7 +517,7 @@
     ],
     "revision_timestamp": [
       {
-        "value": "2022-05-06T01:59:16+00:00",
+        "value": "2022-06-15T12:04:48+00:00",
         "format": "Y-m-d\\TH:i:sP"
       }
     ],
@@ -553,7 +558,7 @@
     ],
     "changed": [
       {
-        "value": "2022-05-06T01:59:16+00:00",
+        "value": "2022-06-15T12:04:48+00:00",
         "format": "Y-m-d\\TH:i:sP"
       }
     ],
@@ -585,7 +590,9 @@
       }
     ],
     "field_event_booking_numbers": [
-      
+      {
+        "value": 6
+      }
     ],
     "field_event_data_and_time": [
       {
@@ -608,7 +615,7 @@
     "field_event_location": [
       {
         "target_id": 70,
-        "target_revision_id": 162,
+        "target_revision_id": 192,
         "target_type": "paragraph",
         "target_uuid": "e27a0f34-5a24-45ac-bd6e-d8418a182c70"
       }
@@ -623,19 +630,19 @@
     "field_hourly_schedule": [
       {
         "target_id": 62,
-        "target_revision_id": 163,
+        "target_revision_id": 193,
         "target_type": "paragraph",
         "target_uuid": "d1304979-dad1-4141-8895-467717f11a26"
       },
       {
         "target_id": 63,
-        "target_revision_id": 164,
+        "target_revision_id": 194,
         "target_type": "paragraph",
         "target_uuid": "44eb0c6a-543d-4050-9daa-fd11734cb865"
       },
       {
         "target_id": 64,
-        "target_revision_id": 165,
+        "target_revision_id": 195,
         "target_type": "paragraph",
         "target_uuid": "39e995cf-f32b-4c93-8d6e-640fc87b8b8e"
       }

@@ -33,7 +33,7 @@ function LoginForm({nodeId}){
   /** JWT TOKEN STATUS  */
   const [tokenStatus, setTokenStatus] = useState('');
   const [tokenError, setTokenError] = useState('');
-  console.log("JWT STATUS : ",tokenStatus, tokenError);
+  //console.log("Simple Oauth STATUS : ",tokenStatus, tokenError);
 
 
   /** Login status sent to redux state management */
@@ -70,14 +70,15 @@ function LoginForm({nodeId}){
       //dispatch(actionUserLogin(username, password));
       loginuser(username, password, setStatus, setError);
       console.log("userlogin ???", username, password, status);
-      simpleOauthToken(username, password, setTokenStatus, setTokenError);
+      //simpleOauthToken(username, password, setTokenStatus, setTokenError);
     }
   }
 
 
   return (
     <div>
-        <h3 className="text-xl font-thin p-2 my-2 bg-gray-50">Please sign in to book a place</h3>
+        <h3 className="text-xl font-thin p-2 my-2 bg-gray-50">
+          Please sign in to book a place</h3>
         <AlertMessage message="Message Alert" status={status} />
       <form className="md:w-1/2 w-full" onSubmit={handleSignIn}>
       
@@ -95,7 +96,9 @@ function LoginForm({nodeId}){
 {/** PASSWORD INPUT */}
       { registered &&
         <span>
-        <PasswordField setPassword={setPassword} msgPassword={msgPassword}/>
+        <PasswordField 
+          setPassword={setPassword} 
+          msgPassword={msgPassword}/>
         <SubmitButton name="Log-in" />
         </span>}
       </form>

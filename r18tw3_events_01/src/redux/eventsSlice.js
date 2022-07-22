@@ -1,36 +1,27 @@
 import {createAsyncThunk, createSlice} from '@reduxjs/toolkit';
 import axios from 'axios';
 import { baseurl } from '../config/config';
+import { csrfToken } from '../config/csrfToken';
+
+
 
 
 export const actionEvents = createAsyncThunk("events_data/getEventsData", 
-
-
 async () => {
-
-  console.log("actionEvents");
+  console.log("actionEvents", `${baseurl.URL}/event-listing`);
 
   return axios({
     method: 'GET',
-    url: `${baseurl.URL}/session/token`,
+    url: `${baseurl.URL}/event-listing?_format=json`,
     headers: {
-      'Content-Type':'application/vnd.api+json'
-    }
-    }).then(res => 
-      {
-        return axios({
-          method: 'GET',
-          url: `${baseurl.URL}/jsonapi/node/event_listing?include=field_event_location,field_hourly_schedule`,
-          headers: {
-            'Content-Type': 'application/vnd.api+json',
-            'Accept': 'application/vnd.api+json',
-            'X-CSRF-Token': res.data,
-          }
-        })
-        .then(response => response.data)
-      })
-      .catch(err => { console.error(err)})
+      'Accept': 'application/json',
+      'X-CSRF-Token': csrfToken(),
+  }})
+  .then(response => response)
+  .catch(err => { console.error(err)})
+
 })
+    
 
 
 const eventsSlice = createSlice({
@@ -46,7 +37,7 @@ const eventsSlice = createSlice({
       state.loading = true;
     },
     [actionEvents.fulfilled]: (state,action) => {
-      console.log(action.payload.data);
+      console.log(action.payload);
       state.loading = false;
       state.eventsdata = action.payload;
       state.fetched = true;
@@ -58,6 +49,6 @@ const eventsSlice = createSlice({
   },
 })
 
-// Action creators are generated for each case reducer function
+//Action creators are generated for each case reducer function
 //export const { actionFetchMainMenu } =  mainMenuSlice.actions
 export default eventsSlice.reducer

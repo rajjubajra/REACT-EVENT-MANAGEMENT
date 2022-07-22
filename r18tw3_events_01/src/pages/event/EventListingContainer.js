@@ -64,6 +64,7 @@ function EventListingContainer({data, data_location, data_hourlyScedule}) {
 
 
   useEffect(()=> {
+    
     let arr = []
     data?.map(item=>{
       return arr.push({
@@ -72,6 +73,7 @@ function EventListingContainer({data, data_location, data_hourlyScedule}) {
         "title": item.title[0].value,
         "date_time_from": item.field_event_data_and_time[0].value,
         "date_time_to": item.field_event_data_and_time[0].end_value,
+        "duration": item.field_event_data_and_time[0].duration,
         "details": item.field_event_details[0].value,
         "location": venue_detail(item.field_event_location[0].target_id),
         "organiser": item.field_event_organizer[0].value,
